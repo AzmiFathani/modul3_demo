@@ -60,6 +60,7 @@ public class TempConvertRefactor {
         double fahrenheit = celsiusToFahrenheit(celsius);
         double kelvin = celsiusToKelvin(celsius);
 
+        System.out.println("Suhu dalam celcius : " + celsius);
         System.out.println("Suhu dalam Fahrenheit: " + fahrenheit);
         System.out.println("Suhu dalam Kelvin: " + kelvin);
     }
